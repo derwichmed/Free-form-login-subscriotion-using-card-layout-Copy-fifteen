@@ -1,0 +1,90 @@
+.form_login_subscription{
+    margin-top: 100px
+}
+.form_login_subscription .header > div > div{
+    width: 170px;
+    height: 48px;
+    background-color: #ececec;
+    border-radius: 6px;
+}
+.form_login_subscription .header > div > div >  div:nth-child(1){
+    width: 60px;
+    height: 48px;
+    display: inline-block;
+    background-color: #57e6d4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;                            
+}
+.form_login_subscription .header > div > div >  div:nth-child(2){
+    width: 80px;
+    height: 48px;
+    display: inline-block;
+    font-weight: bold
+}
+.form_login_subscription .form_content{
+    background-color: #525576;
+    border-radius: 5px;
+    border-top-right-radius: 0px
+}
+.form_login_subscription .form_content .header{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Raleway';
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white
+}
+.form_login_subscription .form_content .form_item{
+    margin-top: 30px
+}
+input,.input-group-text{
+    background-color: transparent;
+    border: none
+}
+.input-group{
+    border-bottom: #8388bb 2px solid
+}
+input::placeholder{
+    color: #55e8d5;
+    font-family: 'Raleway';
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+input[type=date]{
+    background-color: #ececec;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 200px
+}
+input[type=submit]{
+    width: 150px;
+    background-color: #55e8d5;
+    margin: 10px;
+    color: white;
+    font-weight: bold
+}
+.input-group-text img{
+    width: 18px;
+    height: 18px
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px
+}
+input{
+    color: white
+}
+input:focus{
+    outline: none;
+}
+.login,.subscribe{
+    cursor: pointer
+}
